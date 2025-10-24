@@ -1,5 +1,4 @@
 /* Sticky navbar. logo and brand name on the left, links to pages on the middle, contact button on the right. */
-import { useState } from "react";
 import logo from "/Users/ishankhurram/miltongeeks/src/assets/milton-geeks-logo.svg";
 
 /* Set nav links as constants. Loop through them for links*/
@@ -29,7 +28,7 @@ export default function Navbar() {
         {/* Middle links, DESKTOP VERSION 
             Loop through constants made earlier to display links.
         */}
-        <ul className="justify-self-center hidden md:flex items-center gap-8 text-med text-neutral-700 leading-none font-bevietnam font-bold translate-x-[-2rem]">
+        <ul className="justify-self-center hidden md:flex items-center gap-8 text-med text-neutral-900 leading-none font-bevietnam font-bold translate-x-[-2rem]">
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
               <a href={link.href} className="hover:text-black transition">

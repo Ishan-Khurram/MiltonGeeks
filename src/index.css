@@ -4,8 +4,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
 :root {
   font-family: "Be Vietnam Pro", sans-serif;
   line-height: 1.5;
@@ -19,11 +24,6 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 @media (prefers-color-scheme: light) {
