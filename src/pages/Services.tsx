@@ -30,7 +30,7 @@ export default function Services() {
       {/* Cards for information. 6 total, 3 on top, 3 on the bottom. */}
       {/* Computer repair and maintenance */}
       <section className="bg-white">
-        <div className="grid grid-cols-1 sm:grid-cols2 lg:grid-cols-3 gap-6 place-items-stretch max-w-6xl mx-auto sm:grid-cols-2 px-10">
+        <div className="grid grid-cols-1 sm:grid-cols2 lg:grid-cols-3 gap-6 place-items-stretch max-w-6xl mx-auto sm:grid-cols-2 px-10 pb-15">
           {/* Computer repair and maintenance */}
           <div className="bg-[#bcff1c] rounded-3xl shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow ">
             <img
