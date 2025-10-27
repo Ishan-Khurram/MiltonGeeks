@@ -126,7 +126,7 @@ export default function Serivces() {
             className="w-12 h-12"
           />
           <div>
-            <h4 className="text-black font-semibold text-lg mb-1">
+            <h4 className="text-slate-900 font-semibold text-lg mb-1">
               Comprehensive Repairs
             </h4>
             <p className="text-slate-700 leading-relaxed">
@@ -143,7 +143,7 @@ export default function Serivces() {
             className="w-12 h-12"
           />
           <div>
-            <h4 className="text-black font-semibold text-lg mb-1">
+            <h4 className="text-slate-900 font-semibold text-lg mb-1">
               Smart Recommendations
             </h4>
             <p className="text-slate-700 leading-relaxed">
@@ -160,7 +160,7 @@ export default function Serivces() {
             className="w-12 h-12"
           />
           <div>
-            <h4 className="text-black font-semibold text-lg mb-1">
+            <h4 className="text-slate-900 font-semibold text-lg mb-1">
               Sustainable Solutions
             </h4>
             <p className="text-slate-700 leading-relaxed">
