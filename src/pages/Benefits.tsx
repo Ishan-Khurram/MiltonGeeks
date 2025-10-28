@@ -18,7 +18,10 @@ export default function Serivces() {
   return (
     <section id="benefits" className="bg-[#f6f7f9]">
       {/* Title text and blurb */}
-      <div className="mx-auto max-w-6xl px-6 py-16 text-center">
+      <div className="mx-auto max-w-6xl px-6 py-10 text-center">
+        <p className="inline-flex items-center gap-2 rounded-full bg-lime-300/90 px-3 py-1 text-sm font-medium text-black">
+          <span className="opacity-80">Benefits</span>
+        </p>
         <h1 className="text-[60px] font-extrabold leading-tight tracking-tight text-slate-900 md-text-[60px]">
           Tech made simple.
         </h1>

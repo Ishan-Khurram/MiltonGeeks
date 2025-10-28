@@ -1,6 +1,3 @@
-// BrandCarousel.tsx
-import React from "react";
-
 type Item = { name: string; logoSrc?: string; alt?: string };
 
 export default function BrandCarousel({
@@ -49,7 +46,7 @@ export default function BrandCarousel({
       </div>
 
       {/* Reduced motion: stop animating */}
-      <style jsx>{`
+      <style>{`
         @media (prefers-reduced-motion: reduce) {
           .\\[animation\\:marquee_30s_linear_infinite\\] {
             animation: none !important;

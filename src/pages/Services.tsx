@@ -17,7 +17,10 @@
 export default function Services() {
   return (
     <section id="services" className="bg-[#ffffff]">
-      <div className="mx-auto max-w-4xl px-6 py-6 pt-20 text-center">
+      <div className="mx-auto max-w-4xl px-6 py-6 pt-10 text-center">
+        <p className="inline-flex items-center gap-2 rounded-full bg-lime-300/90 px-3 py-1 text-sm font-medium text-black">
+          <span className="opacity-80">Services</span>
+        </p>
         <h1 className="text-[60px] font-extrabold leading-tight tracking-tight text-slate-900 md-text-[60px]">
           Get your technology working the way it should
         </h1>

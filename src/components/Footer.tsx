@@ -19,10 +19,7 @@ export default function Footer() {
 
         {/* Right — Contact button */}
         <div className="hidden md:block justify-self-end">
-          <button
-            href="#contact"
-            className="rounded-full bg-[#fffff] text-[#1F76D2] px-4 py-2 hover:bg-[#FFFFFF] transition outline-1"
-          >
+          <button className="rounded-full bg-[#fffff] text-[#1F76D2] px-4 py-2 hover:bg-[#FFFFFF] transition outline-1">
             Contact
           </button>
         </div>
