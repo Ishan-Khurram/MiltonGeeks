@@ -12,10 +12,7 @@ const NAV_LINKS = [
 /* initialize navbar function */
 export default function Navbar() {
   return (
-    <header
-      className="sticky top-0 z-50 bg-[#ffffff] backdrop-blur border-b"
-      role=""
-    >
+    <header className="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b">
       <nav className="mx-auto grid h-24 w-full grid-cols-[auto_1fr_auto] items-center px-20">
         {/* Left */}
         <a href="/" className="font-poppins flex items-center gap-2 shrink-0">
@@ -40,10 +37,7 @@ export default function Navbar() {
 
         {/* Right contact button DESKTOP */}
         <div className="hidden md:block justify-self-end">
-          <button
-            href="#contact"
-            className="rounded-full bg-[#fffff] text-[#1F76D2] px-4 py-2 hover:bg-[#F8F8F8] transition outline-1"
-          >
+          <button className="rounded-full bg-[#fffff] text-[#1F76D2] px-4 py-2 hover:bg-[#F8F8F8] transition outline-1">
             Contact
           </button>
         </div>

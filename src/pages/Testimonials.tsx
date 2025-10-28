@@ -18,7 +18,7 @@ import TestimonialCarousel from "../components/TestimonialsCarousel";
 
 export default function Testimonials() {
   return (
-    <div className="bg-[#ffffff]">
+    <div id="testimonials" className="bg-[#ffffff]">
       <section className="mx-auto max-w-6xl px-6 pt-15 text-center">
         {/* You can bet on it title with a metrics tag above to match the updates one from home */}
         <p className="inline-flex items-center gap-2 rounded-full bg-lime-300/90 px-3 py-1 text-sm font-medium text-black">
@@ -28,7 +28,6 @@ export default function Testimonials() {
           You can bet on it
         </h1>
       </section>
-      {/* Metrics displayed: devices repaired, average customer rating, average response time */}
       {/* Metrics displayed: devices repaired, average customer rating, average response time */}
       <section className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-10 py-8 text-center divide-x-2 divide-[#1F76D2]">
         {/* Average Response Time */}

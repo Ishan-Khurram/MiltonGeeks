@@ -125,7 +125,7 @@ export default function TestimonialCarousel() {
                   issues.”
                 </p>
                 <h4 className="text-slate-900 font-semibold mt-4">
-                  — Sarah L.
+                  — Elizabeth C.
                 </h4>
                 <h4 className="text-slate-500 font-medium">
                   Longtime Milton Resident
@@ -215,7 +215,7 @@ export default function TestimonialCarousel() {
                   — Sarah L.
                 </h4>
                 <h4 className="text-slate-500 font-medium">
-                  Longtime Milton Resident
+                  Small Business Owner
                 </h4>
               </div>
             </div>

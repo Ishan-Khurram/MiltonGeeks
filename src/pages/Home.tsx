@@ -30,7 +30,7 @@ export default function Home() {
   ];
 
   return (
-    <section className="bg-[#f6f7f9] overflow-x-hidden">
+    <section className="bg-[#f6f7f9] overflow-x-hidden pt-24">
       <div className="mx-auto max-w-7xl px-6 py-24">
         {/* 2-column layout */}
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="pt-8 overflow-hidden flex items-center [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] [mask-size:100%_100%] [mask-repeat:repeat]">
+        <div className="pt-12 overflow-hidden flex items-center [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] [mask-size:100%_100%] [mask-repeat:repeat]">
           {/* Add carousel here with  "brands we fix everyday" with the logo of the company with their name besides them */}
           {/* HP, ASUS, Dell, Lenovo, Apple, Samsung, Acer, MSI, LG, Microsoft, Google*/}
           <BrandCarousel title="Brands We Fix Everyday" items={BRANDS} />

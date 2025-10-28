@@ -16,7 +16,7 @@
 
 export default function Serivces() {
   return (
-    <section className="bg-[#f6f7f9]">
+    <section id="benefits" className="bg-[#f6f7f9]">
       {/* Title text and blurb */}
       <div className="mx-auto max-w-6xl px-6 py-16 text-center">
         <h1 className="text-[60px] font-extrabold leading-tight tracking-tight text-slate-900 md-text-[60px]">

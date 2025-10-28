@@ -5,6 +5,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  scroll-padding-top: 6rem; /* matches your fixed nav height (h-24) */
 }
 
 body {

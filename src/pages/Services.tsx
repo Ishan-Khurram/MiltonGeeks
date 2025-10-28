@@ -16,7 +16,7 @@
 
 export default function Services() {
   return (
-    <section className="bg-[#ffffff]">
+    <section id="services" className="bg-[#ffffff]">
       <div className="mx-auto max-w-4xl px-6 py-6 pt-20 text-center">
         <h1 className="text-[60px] font-extrabold leading-tight tracking-tight text-slate-900 md-text-[60px]">
           Get your technology working the way it should
