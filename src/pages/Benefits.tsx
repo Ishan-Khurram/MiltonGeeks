@@ -14,6 +14,8 @@
  *
  */
 
+import wrench from "../assets/wrench-icon.png";
+import localhelp from "../card-images/local-help.png";
 export default function Serivces() {
   return (
     <section id="benefits" className="bg-[#f6f7f9]">
@@ -40,7 +42,7 @@ export default function Serivces() {
       <section className="grid sm:grid-cols-1 lg:grid-cols-2 gap-8 justify-items-center place-items-stretch max-w-7xl mx-auto px-30 pb-16">
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src="/public/card-images/local-help.png"
+            src={localhelp}
             alt="local help"
             className="w-60 h-60 mb-8 mx-auto"
           />
@@ -54,7 +56,7 @@ export default function Serivces() {
         </div>
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src="/public/card-images/local-help.png"
+            src={localhelp}
             alt="local help"
             className="w-60 h-60 mb-8 mx-auto"
           />
@@ -71,7 +73,7 @@ export default function Serivces() {
       <section className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 justify-items-center place-items-stretch max-w-7xl mx-auto px-30 pb-16">
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src="/public/card-images/local-help.png"
+            src={localhelp}
             alt="local help"
             className="w-60 h-60 mb-8 mx-auto"
           />
@@ -85,7 +87,7 @@ export default function Serivces() {
         </div>
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src="/public/card-images/local-help.png"
+            src={localhelp}
             alt="local help"
             className="w-60 h-60 mb-8 mx-auto"
           />
@@ -99,7 +101,7 @@ export default function Serivces() {
         </div>
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src="/public/card-images/local-help.png"
+            src={localhelp}
             alt="local help"
             className="w-60 h-60 mb-8 mx-auto"
           />
@@ -123,11 +125,7 @@ export default function Serivces() {
       <section className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-30 pb-16">
         {/* Card 1 */}
         <div className="flex items-start gap-4">
-          <img
-            src="/public/assets/wrench-icon.png"
-            alt="Computer Repair Icon"
-            className="w-12 h-12"
-          />
+          <img src={wrench} alt="Computer Repair Icon" className="w-12 h-12" />
           <div>
             <h4 className="text-slate-900 font-semibold text-lg mb-1">
               Comprehensive Repairs
@@ -140,11 +138,7 @@ export default function Serivces() {
 
         {/* Card 2 */}
         <div className="flex items-start gap-4">
-          <img
-            src="/public/assets/wrench-icon.png"
-            alt="Computer Repair Icon"
-            className="w-12 h-12"
-          />
+          <img src={wrench} alt="Computer Repair Icon" className="w-12 h-12" />
           <div>
             <h4 className="text-slate-900 font-semibold text-lg mb-1">
               Smart Recommendations
@@ -157,11 +151,7 @@ export default function Serivces() {
 
         {/* Card 3 */}
         <div className="flex items-start gap-4">
-          <img
-            src="/public/assets/wrench-icon.png"
-            alt="Computer Repair Icon"
-            className="w-12 h-12"
-          />
+          <img src={wrench} alt="Computer Repair Icon" className="w-12 h-12" />
           <div>
             <h4 className="text-slate-900 font-semibold text-lg mb-1">
               Sustainable Solutions

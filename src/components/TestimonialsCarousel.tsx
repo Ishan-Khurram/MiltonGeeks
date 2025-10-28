@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import type { ComponentPropsWithRef } from "react";
 import type { EmblaCarouselType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
+import localhelp from "../card-images/local-help.png";
 
 export default function TestimonialCarousel() {
   // Initialize carousel logic
@@ -104,7 +105,7 @@ export default function TestimonialCarousel() {
               {/* Left Side - Image */}
               <div className="flex justify-center items-center px-6">
                 <img
-                  src="/public/card-images/local-help.png"
+                  src={localhelp}
                   alt="Customer"
                   className="w-full h-full object-cover rounded-lg"
                 />
@@ -147,7 +148,7 @@ export default function TestimonialCarousel() {
               {/* Left Side - Image */}
               <div className="flex justify-center items-center px-6">
                 <img
-                  src="/public/card-images/local-help.png"
+                  src={localhelp}
                   alt="Customer"
                   className="w-full h-full object-cover rounded-lg"
                 />
@@ -191,7 +192,7 @@ export default function TestimonialCarousel() {
               {/* Left Side - Image */}
               <div className="flex justify-center items-center px-6">
                 <img
-                  src="/public/card-images/local-help.png"
+                  src={localhelp}
                   alt="Customer"
                   className="w-full h-full object-cover rounded-lg"
                 />
@@ -234,7 +235,7 @@ export default function TestimonialCarousel() {
               {/* Left Side - Image */}
               <div className="flex justify-center items-center px-6">
                 <img
-                  src="/public/card-images/local-help.png"
+                  src={localhelp}
                   alt="Customer"
                   className="w-full h-full object-cover rounded-lg"
                 />

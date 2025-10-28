@@ -1,14 +1,12 @@
+import logo from "../assets/milton-geeks-logo.svg";
+
 export default function Footer() {
   return (
     <footer>
       <nav className="mx-auto grid h-24 w-full grid-cols-[auto_1fr_auto] items-center px-20">
         {/* Left — Logo */}
         <a href="/" className="font-poppins flex items-center gap-2 shrink-0">
-          <img
-            src="/public/assets/milton-geeks-logo.svg"
-            alt="Milton Geeks Logo"
-            className="w-12 h-12 block"
-          />
+          <img src={logo} alt="Milton Geeks Logo" className="w-12 h-12 block" />
           <span className="font-poppins font-semibold leading-none whitespace-nowrap text-[#1F76D2] text-xl">
             Milton<span className="text-[#000000]">Geeks</span>
           </span>
