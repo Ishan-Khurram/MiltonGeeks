@@ -37,7 +37,7 @@ export default function Services() {
           {/* Computer repair and maintenance */}
           <div className="bg-[#bcff1c] rounded-3xl shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow ">
             <img
-              src="/src/assets/wrench-icon.png"
+              src="/public/assets/wrench-icon.png"
               alt="Repair Icon"
               className="w-12 h-12 mb-8"
             ></img>
@@ -53,7 +53,7 @@ export default function Services() {
           {/* Virus and Malware Removal */}
           <div className="bg-[#bcff1c] rounded-3xl shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow ">
             <img
-              src="/src/assets/wrench-icon.png"
+              src="/public/assets/wrench-icon.png"
               alt="Repair Icon"
               className="w-12 h-12 mb-8"
             ></img>
@@ -69,7 +69,7 @@ export default function Services() {
           {/* Data Transfer and Backup */}
           <div className="bg-[#bcff1c] rounded-3xl shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow ">
             <img
-              src="/src/assets/wrench-icon.png"
+              src="/public/assets/wrench-icon.png"
               alt="Repair Icon"
               className="w-12 h-12 mb-8"
             ></img>
@@ -86,7 +86,7 @@ export default function Services() {
           {/* Tech set-up and support */}
           <div className="bg-[#bcff1c] rounded-3xl shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow ">
             <img
-              src="/src/assets/wrench-icon.png"
+              src="/public/assets/wrench-icon.png"
               alt="Repair Icon"
               className="w-12 h-12 mb-8"
             ></img>
@@ -103,7 +103,7 @@ export default function Services() {
           {/* Custom builds and upgrades */}
           <div className="bg-[#bcff1c] rounded-3xl shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow ">
             <img
-              src="/src/assets/wrench-icon.png"
+              src="/public/assets/wrench-icon.png"
               alt="Repair Icon"
               className="w-12 h-12 mb-8"
             ></img>
@@ -120,7 +120,7 @@ export default function Services() {
           {/* and more */}
           <div className="bg-[#bcff1c] rounded-3xl shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow ">
             <img
-              src="/src/assets/wrench-icon.png"
+              src="/public/assets/wrench-icon.png"
               alt="Repair Icon"
               className="w-12 h-12 mb-8"
             ></img>

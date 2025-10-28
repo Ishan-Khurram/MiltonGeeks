@@ -1,6 +1,4 @@
 /* Sticky navbar. logo and brand name on the left, links to pages on the middle, contact button on the right. */
-import logo from "/Users/ishankhurram/miltongeeks/src/assets/milton-geeks-logo.svg";
-
 /* Set nav links as constants. Loop through them for links*/
 const NAV_LINKS = [
   { href: "#services", label: "Services" },
@@ -16,7 +14,11 @@ export default function Navbar() {
       <nav className="mx-auto grid h-24 w-full grid-cols-[auto_1fr_auto] items-center px-20">
         {/* Left */}
         <a href="/" className="font-poppins flex items-center gap-2 shrink-0">
-          <img src={logo} alt="Milton Geeks Logo" className="w-12 h-12 block" />
+          <img
+            src="/public/assets/milton-geeks-logo.svg"
+            alt="Milton Geeks Logo"
+            className="w-12 h-12 block"
+          />
           <span className="font-poppins font-semibold leading-none whitespace-nowrap text-[#1F76D2] text-xl">
             Milton<span className="text-[#000000]">Geeks</span>
           </span>

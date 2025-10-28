@@ -124,7 +124,7 @@ export default function Serivces() {
         {/* Card 1 */}
         <div className="flex items-start gap-4">
           <img
-            src="/src/assets/wrench-icon.png"
+            src="/public/assets/wrench-icon.png"
             alt="Computer Repair Icon"
             className="w-12 h-12"
           />
@@ -141,7 +141,7 @@ export default function Serivces() {
         {/* Card 2 */}
         <div className="flex items-start gap-4">
           <img
-            src="/src/assets/wrench-icon.png"
+            src="/public/assets/wrench-icon.png"
             alt="Computer Repair Icon"
             className="w-12 h-12"
           />
@@ -158,7 +158,7 @@ export default function Serivces() {
         {/* Card 3 */}
         <div className="flex items-start gap-4">
           <img
-            src="/src/assets/wrench-icon.png"
+            src="/public/assets/wrench-icon.png"
             alt="Computer Repair Icon"
             className="w-12 h-12"
           />
