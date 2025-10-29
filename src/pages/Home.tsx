@@ -14,6 +14,7 @@
  *
  */
 import BrandCarousel from "../components/BrandCarousel";
+import emailSubmission from "../components/EmailData";
 export default function Home() {
   /* Brands for the carousel at the bottom of the home page */
   const BRANDS = [
@@ -70,7 +71,7 @@ export default function Home() {
                 Be the first to know when we launch and for quick support.
               </p>
 
-              <form className="mt-6 space-y-3">
+              <form className="mt-6 space-y-3" onSubmit={emailSubmission}>
                 <input
                   name="name"
                   required
@@ -79,24 +80,17 @@ export default function Home() {
                   className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
                 />
                 <input
-                  name="number"
+                  name="phone"
                   required
-                  type="phone number"
+                  type="tel"
                   placeholder="Phone Number"
                   className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
                 />
-                <input
-                  type="email"
-                  placeholder="Email"
-                  name="email"
-                  className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
-                  required
-                />
-                <input
+                <textarea
                   name="message"
                   required
-                  type="text"
                   placeholder="Message"
+                  rows={3}
                   className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
                 />
                 <button
