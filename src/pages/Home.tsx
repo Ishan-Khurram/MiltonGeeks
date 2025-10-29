@@ -31,14 +31,13 @@ export default function Home() {
 
   return (
     <section className="bg-[#f6f7f9] overflow-x-hidden pt-24">
-      <div className="mx-auto max-w-7xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 py-20">
         {/* 2-column layout */}
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
           {/* LEFT: blurb */}
           <div>
             <p className="inline-flex items-center gap-2 rounded-full bg-lime-300/90 px-3 py-1 text-sm font-medium text-black">
-              Updates:{" "}
-              <span className="opacity-80">We're taking new clients →</span>
+              <span className="opacity-80">Need a Geek? Contact us! →</span>
             </p>
 
             <h1 className="mt-4 text-[60px] font-extrabold leading-tight tracking-tight text-slate-900 md:text-[60px]">
@@ -73,16 +72,29 @@ export default function Home() {
 
               <form className="mt-6 space-y-3">
                 <input
+                  name="name"
+                  required
                   type="text"
                   placeholder="Name"
                   className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
                 />
                 <input
+                  name="number"
+                  required
                   type="phone number"
                   placeholder="Phone Number"
                   className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
                 />
                 <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
+                  required
+                />
+                <input
+                  name="message"
+                  required
                   type="text"
                   placeholder="Message"
                   className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
@@ -102,7 +114,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="pt-12 overflow-hidden flex items-center [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] [mask-size:100%_100%] [mask-repeat:repeat]">
+        <div className="pt-9 overflow-hidden flex items-center [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] [mask-size:100%_100%] [mask-repeat:repeat]">
           {/* Add carousel here with  "brands we fix everyday" with the logo of the company with their name besides them */}
           {/* HP, ASUS, Dell, Lenovo, Apple, Samsung, Acer, MSI, LG, Microsoft, Google*/}
           <BrandCarousel title="Brands We Fix Everyday" items={BRANDS} />
