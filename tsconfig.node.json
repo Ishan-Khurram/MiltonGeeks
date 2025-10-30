@@ -4,12 +4,19 @@
     "lib": ["ES2022"],
     "module": "ESNext",
     "moduleResolution": "Node",
-    "jsx": "react-jsx",
+    "jsx": "react-jsx",                
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
     "types": ["node"],
+    "ignoreDeprecations": "5.0",
+    "composite": true
   },
-  "include": ["api/**/*.ts", "emails/**/*.tsx"]
+    "include": [
+    "vite.config.ts",
+    "api/**/*.ts",
+    "api/**/*.tsx",
+    "emails/**/*.tsx"
+  ]
 }
