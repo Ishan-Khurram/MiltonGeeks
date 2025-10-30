@@ -6,7 +6,7 @@ export default async function emailSubmission(
   // prevent default page reload so we can send email in its place.
   e.preventDefault();
 
-  const fd = FormData(e.currentTarget);
+  const fd = new FormData(e.currentTarget);
   // read data from form element.
 
   // turn form data into parsable json data.
