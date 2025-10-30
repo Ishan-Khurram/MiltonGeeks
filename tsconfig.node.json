@@ -16,7 +16,9 @@
     "noEmit": true,
 
     // Node globals/types for API handlers
-    "types": ["node"]
+    "types": ["node"],
+    "ignoreDeprecations": "6.0"
+
   },
   "include": [
     "api/**/*.ts",

@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/**/*.[jt]s": {
+      "runtime": "nodejs20.x",
+      "tsconfig": "tsconfig.node.json",
+      "includeFiles": "emails/**"
+    }
+  }
+}
