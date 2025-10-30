@@ -7,7 +7,7 @@
  * Last Updated: 2025-10-23
  *
  * Notes:
- * - <any quick implementation notes or gotchas>
+ * - resend requires lots of fixes with config files.
  *
  * Changelog:
  * - 2025-10-23: Initial version.
