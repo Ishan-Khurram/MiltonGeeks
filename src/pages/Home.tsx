@@ -79,6 +79,14 @@ export default function Home() {
                   placeholder="Name"
                   className="w-full inline-block p-[15px] text-[16px] leading-[1.4em] rounded-lg bg-[#ebebeb] text-gray-500 border-none outline-none shadow-[inset_0_0_0_1px_transparent] focus:shadow-[inset_0_0_0_1px_rgba(124,58,237,0.75)] transition-shadow"
                 />
+                {/* Honeypot to defer bots */}
+                <input
+                  type="text"
+                  name="company"
+                  tabIndex="-1"
+                  autoComplete="off"
+                  className="hidden"
+                />
                 <input
                   name="phone"
                   required
