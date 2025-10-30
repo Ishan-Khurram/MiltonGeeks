@@ -83,7 +83,7 @@ export default function Home() {
                 <input
                   type="text"
                   name="company"
-                  tabIndex="-1"
+                  tabIndex={-1}
                   autoComplete="off"
                   className="hidden"
                 />
