@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { Resend } from 'resend';
-import ContactEmail from '../emails/ContactEmail';
+import ContactEmail from '../emails/ContactEmail.js';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const isPhone = (s: string) => /^[\d\s+()-]{7,20}$/.test(s || '');
