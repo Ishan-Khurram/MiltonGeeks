@@ -15,6 +15,7 @@ export default async function emailSubmission(
     phone: String(fd.get("phone") || ""),
     email: String(fd.get("email") || ""), // email not added yet, mostlikely want phone calls back as its faster. Put here for later use.
     message: String(fd.get("message") || ""),
+    company: String(fd.get("company") || ""),
   };
 
   const r = await fetch("/api/contact", {

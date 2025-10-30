@@ -1,26 +1,25 @@
 {
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
-    "target": "ES2023",
-    "lib": ["ES2023"],
+    "target": "ES2022",
+    "lib": ["ES2022"],
     "module": "ESNext",
-    "types": ["node"],
-    "skipLibCheck": true,
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
+    // Use classic Node resolution for server code so you DON'T need .js in imports
+    "moduleResolution": "Node",
+
+    // Needed because your server imports a TSX email template
+    "jsx": "react-jsx",
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
     "noEmit": true,
 
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    // Node globals/types for API handlers
+    "types": ["node"]
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "api/**/*.ts",
+    "emails/**/*.tsx"
+  ]
 }
