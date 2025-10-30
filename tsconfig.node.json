@@ -3,25 +3,14 @@
     "target": "ES2022",
     "lib": ["ES2022"],
     "module": "ESNext",
-
-    // Use classic Node resolution for server code so you DON'T need .js in imports
     "moduleResolution": "Node",
-
-    // Needed because your server imports a TSX email template
     "jsx": "react-jsx",
-
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-
-    // Node globals/types for API handlers
     "types": ["node"],
     "ignoreDeprecations": "6.0"
-
   },
-  "include": [
-    "api/**/*.ts",
-    "emails/**/*.tsx"
-  ]
+  "include": ["api/**/*.ts", "emails/**/*.tsx"]
 }
