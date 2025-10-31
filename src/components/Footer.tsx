@@ -1,4 +1,5 @@
 import logo from "../assets/milton-geeks-logo.svg";
+import ContactModal from "./ContactModal";
 
 export default function Footer() {
   return (
@@ -19,9 +20,7 @@ export default function Footer() {
 
         {/* Right — Contact button */}
         <div className="hidden md:block justify-self-end">
-          <button className="rounded-full bg-[#fffff] text-[#1F76D2] px-4 py-2 hover:bg-[#FFFFFF] transition outline-1">
-            Contact
-          </button>
+          <ContactModal />
         </div>
       </nav>
     </footer>

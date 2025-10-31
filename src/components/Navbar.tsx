@@ -1,6 +1,7 @@
 /* Sticky navbar. logo and brand name on the left, links to pages on the middle, contact button on the right. */
 /* Set nav links as constants. Loop through them for links*/
 import logo from "../assets/milton-geeks-logo.svg";
+import ContactModal from "./ContactModal";
 
 const NAV_LINKS = [
   { href: "#services", label: "Services" },
@@ -37,9 +38,7 @@ export default function Navbar() {
 
         {/* Right contact button DESKTOP */}
         <div className="hidden md:block justify-self-end">
-          <button className="rounded-full bg-[#fffff] text-[#1F76D2] px-4 py-2 hover:bg-[#F8F8F8] transition outline-1">
-            Contact
-          </button>
+          <ContactModal />
         </div>
       </nav>
     </header>

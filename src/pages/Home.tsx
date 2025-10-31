@@ -68,7 +68,8 @@ export default function Home() {
                 Secure your spot now
               </h2>
               <p className="mt-2 text-center text-sm text-slate-500">
-                Be the first to know when we launch and for quick support.
+                Get fast, reliable tech help from your local experts. <br />
+                Fill out the form and we’ll reach out shortly.
               </p>
 
               <form className="mt-6 space-y-3" onSubmit={emailSubmission}>
