@@ -1,4 +1,3 @@
-// src/components/ContactModal.tsx
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import emailSubmission from "../components/EmailData";

@@ -272,13 +272,11 @@ export default function TestimonialCarousel() {
               onClick={() => onDotButtonClick(i)}
               aria-current={selectedIndex === i ? "true" : undefined}
               className={[
-                "w-6 h-6 rounded-full bg-[#f8f9fb] shadow hover:bg-slate-100 text-slate-700",
+                "w-6 h-6 rounded-full bg-[#6BF178] shadow hover:bg-slate-100 text-slate-700",
                 "grid place-items-center transition-opacity",
                 selectedIndex === i ? "opacity-100" : "opacity-40",
               ].join(" ")}
-            >
-              x
-            </DotButton>
+            ></DotButton>
           ))}
         </div>
 
@@ -289,14 +287,14 @@ export default function TestimonialCarousel() {
             aria-label="Previous"
             className="bg-[#f8f9fb] rounded-full shadow px-4 py-2 hover:bg-slate-100 text-slate-700"
           >
-            ⇐
+            ←
           </button>
           <button
             onClick={scrollNext}
             aria-label="Next"
             className="bg-[#f8f9fb] rounded-full shadow px-4 py-2 hover:bg-slate-100 text-slate-700"
           >
-            ⇒
+            →
           </button>
         </div>
       </div>

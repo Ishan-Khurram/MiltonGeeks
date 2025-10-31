@@ -16,6 +16,10 @@
 
 import wrench from "../assets/wrench-icon.png";
 import localhelp from "../card-images/local-help.png";
+import clearcomms from "../card-images/clear-communication.png";
+import fastreliable from "../card-images/fast-reliable-help.png";
+import honest from "../card-images/honest-transparent-service.png";
+import personalized from "../card-images/personalized-support.png";
 export default function Serivces() {
   return (
     <section id="benefits" className="bg-[#f6f7f9]">
@@ -56,8 +60,8 @@ export default function Serivces() {
         </div>
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src={localhelp}
-            alt="local help"
+            src={honest}
+            alt="Honest and Transparent Services"
             className="w-60 h-60 mb-8 mx-auto"
           />
           <h2 className="text-slate-900 text-[30px] font-semibold mb-2 leading-tight tracking-tight pr-10">
@@ -73,8 +77,8 @@ export default function Serivces() {
       <section className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 justify-items-center place-items-stretch max-w-7xl mx-auto px-30 pb-16">
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src={localhelp}
-            alt="local help"
+            src={fastreliable}
+            alt="Fast and Reliable Help"
             className="w-60 h-60 mb-8 mx-auto"
           />
           <h2 className="text-slate-900 text-[30px] font-semibold mb-2 leading-tight tracking-tight pr-10">
@@ -87,8 +91,8 @@ export default function Serivces() {
         </div>
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src={localhelp}
-            alt="local help"
+            src={personalized}
+            alt="Personalized Support"
             className="w-60 h-60 mb-8 mx-auto"
           />
           <h2 className="text-slate-900 text-[30px] font-semibold mb-2 leading-tight tracking-tight pr-10">
@@ -101,8 +105,8 @@ export default function Serivces() {
         </div>
         <div className="bg-[#f8f9fb] rounded-3xl shadow-md p-6 max-w-lg hover:shadow-lg transition-shadow">
           <img
-            src={localhelp}
-            alt="local help"
+            src={clearcomms}
+            alt="Clear Communication"
             className="w-60 h-60 mb-8 mx-auto"
           />
           <h2 className="text-slate-900 text-[30px] font-semibold mb-2 leading-tight tracking-tight pr-10">
