@@ -56,8 +56,57 @@ export default function Home() {
             </p>
 
             {/* optional: logos/ratings row */}
+            {/* optional: logos/ratings row */}
             <div className="mt-6 flex items-center gap-4 text-slate-500">
-              ********** add stars + icon images of customers header
+              {/* Stacked avatars */}
+              <div className="flex -space-x-3">
+                <div className="relative h-10 w-10 rounded-full border-2 border-white overflow-hidden">
+                  <img
+                    src="https://framerusercontent.com/images/PUja2jlMhB77g7YskLJxlVzkBAA.jpg?scale-down-to=512"
+                    alt="Happy customer 1"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="relative h-10 w-10 rounded-full border-2 border-white overflow-hidden">
+                  <img
+                    src="https://framerusercontent.com/images/0OBj7uN1ncKrMVzB0GprNt5uI.jpg?scale-down-to=512"
+                    alt="Happy customer 2"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="relative h-10 w-10 rounded-full border-2 border-white overflow-hidden">
+                  <img
+                    src="https://framerusercontent.com/images/lVDVGe7ZXiK6CfmkoqwS5fUXY.jpg?scale-down-to=512"
+                    alt="Happy customer 3"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="relative h-10 w-10 rounded-full border-2 border-white overflow-hidden">
+                  <img
+                    src="https://framerusercontent.com/images/JhbGle453RWF0QjzZnSxbtxRBiA.jpg?scale-down-to=512"
+                    alt="Happy customer 4"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+              </div>
+
+              {/* Rating text + stars */}
+              <div className="flex flex-col">
+                <div className="flex items-center gap-1">
+                  <div className="flex items-center gap-0.5 text-lg text-amber-400">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <span key={i}>★</span>
+                    ))}
+                  </div>
+                  <span className="ml-1 text-sm font-semibold text-slate-900">
+                    4.9
+                  </span>
+                  <span className="text-xs text-slate-500">/ 5.0 rating</span>
+                </div>
+                <p className="text-xs text-slate-500">
+                  Trusted by Milton families and local businesses
+                </p>
+              </div>
             </div>
           </div>
 
