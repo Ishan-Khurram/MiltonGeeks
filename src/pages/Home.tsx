@@ -99,7 +99,7 @@ export default function Home() {
                     ))}
                   </div>
                   <span className="ml-1 text-sm font-semibold text-slate-900">
-                    4.9
+                    5.0
                   </span>
                   <span className="text-xs text-slate-500">/ 5.0 rating</span>
                 </div>

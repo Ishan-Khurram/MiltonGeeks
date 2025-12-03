@@ -33,7 +33,7 @@ export default function Testimonials() {
         {/* Average Response Time */}
         <div className="flex flex-col items-center">
           <h1 className="text-[#1F76D2] text-7xl font-extrabold leading-none">
-            12h
+            6h
           </h1>
           <p className="text-slate-900 text-lg font-thin mt-2">
             Average on-site time
@@ -53,7 +53,7 @@ export default function Testimonials() {
         {/* Customer Rating */}
         <div className="flex flex-col items-center">
           <h1 className="text-[#1F76D2] text-7xl font-extrabold leading-none">
-            4.9★
+            5.0★
           </h1>
           <p className="text-slate-900 text-lg font-thin mt-2">
             Average customer rating
